@@ -51,8 +51,10 @@ Add this to your Claude Desktop config file (`~/Library/Application Support/Clau
   "mcpServers": {
     "pdf-extract": {
       "command": [
-        "python",
-        "/Users/xvan/Project/mcp/pdf_split/pdf_extract_mcp.py"
+        "uvx",
+        "--from",
+        "git+https://github.com/xVanTuring/mcp.git#subdirectory=pdf_split",
+        "pdf-extract-mcp"
       ]
     }
   }
