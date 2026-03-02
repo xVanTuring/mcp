@@ -1,3 +1,5 @@
 venv
 .DS_Store
 *.pdf
+.ruff_cache
+dist
