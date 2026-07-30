@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "MCP service for extracting pages from PDF files"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp>=0.0.1",
+    "mcp>=2.0.0",
     "pypdf>=4.0.0",
 ]
 
