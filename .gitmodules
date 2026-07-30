@@ -1,0 +1,3 @@
+[submodule "pdf-toc"]
+	path = pdf-toc
+	url = git@github.com:xVanTuring/pdf-toc.git
